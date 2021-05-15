@@ -6,3 +6,13 @@
 @import 'base/typography';
 
 @import 'layout/navigation';
+
+img {
+    display: none;
+}
+
+nav {
+    img {
+        display: inline;
+    }
+}

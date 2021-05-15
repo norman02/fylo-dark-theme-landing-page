@@ -78,4 +78,12 @@ nav a {
 nav li {
   display: inline;
 }
+
+img {
+  display: none;
+}
+
+nav img {
+  display: inline;
+}
 /*# sourceMappingURL=main.css.map */
