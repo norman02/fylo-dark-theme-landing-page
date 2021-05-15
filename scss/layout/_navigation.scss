@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: toRem(24) toRem(24) toRem(0) toRem(20);
+
+    background-color: $nav-background;
+
+    img {
+        height: toRem(24);
+    }
+
+    a {
+        @include raleway(12, 14, 400);
+        text-decoration: none;
+        color: $nav-link-color;
+        margin-right: toRem(24);
+    }
+
+    li {
+        display: inline;
+    }
+}
