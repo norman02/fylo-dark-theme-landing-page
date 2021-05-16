@@ -180,6 +180,59 @@ header button {
   background-position: right;
 }
 
+.reviews {
+  background-color: #1B2330;
+  color: white;
+  margin-top: 8.875rem;
+  padding: 2.8125rem 13% 0 13%;
+  background-image: url("../../images/bg-quotes.png");
+  background-repeat: no-repeat;
+  background-position: 13% top;
+}
+
+.reviews .review {
+  margin-top: 1.5rem;
+  padding: 1.5rem 1.25rem;
+  background-color: #202A3C;
+  box-shadow: 0px 0px 8px #3838380C;
+  border-radius: 4px;
+  display: grid;
+  grid-template-areas: "para para para" "avatar h3 x" "avatar h4 x";
+  row-gap: 0.1875rem;
+  column-gap: 0.5rem;
+}
+
+.reviews .review p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.625rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  grid-area: para;
+  margin-bottom: 1.125rem;
+}
+
+.reviews .review img {
+  grid-area: avatar;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+.reviews .review h3 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  font-weight: 700;
+  grid-area: h3;
+}
+
+.reviews .review h4 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.4375rem;
+  line-height: 0.625rem;
+  font-weight: 400;
+  grid-area: h4;
+}
+
 .btn {
   font-family: 'Raleway', sans-serif;
   font-size: 0.875rem;
@@ -198,16 +251,5 @@ header button {
 
 body {
   background-color: #1B2330;
-}
-
-img {
-  display: none;
-}
-
-nav img,
-header img,
-.features img,
-.team img {
-  display: inline;
 }
 /*# sourceMappingURL=main.css.map */

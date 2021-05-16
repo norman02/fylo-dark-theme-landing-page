@@ -9,6 +9,7 @@
 @import 'layout/header';
 @import 'layout/features';
 @import 'layout/team-section';
+@import 'layout/reviews-section';
 
 @import 'components/buttons';
 
@@ -16,16 +17,4 @@ body {
     background-color: $main-background-color;
 }
 
-img {
-    display: none;
-}
-
-nav,
-header,
-.features,
-.team {
-    img {
-        display: inline;
-    }
-}
 
