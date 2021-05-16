@@ -1,0 +1,13 @@
+
+.btn {
+    @include raleway(14, 16, 700);
+    outline: none;
+    border: none;
+    color: white;
+    text-align: center;
+    width: toRem(240);
+    height: toRem(48);
+    background: transparent linear-gradient(111deg, $highlight-color-one 0%, $highlight-color-two 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 6px #00000029;
+    border-radius: 24px;
+}
