@@ -8,6 +8,7 @@
 @import 'layout/navigation';
 @import 'layout/header';
 @import 'layout/features';
+@import 'layout/team-section';
 
 @import 'components/buttons';
 
@@ -21,7 +22,8 @@ img {
 
 nav,
 header,
-.features {
+.features,
+.team {
     img {
         display: inline;
     }

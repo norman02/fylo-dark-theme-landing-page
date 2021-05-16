@@ -137,6 +137,49 @@ header button {
   margin-top: 0.875rem;
 }
 
+.team {
+  margin-top: 10.125rem;
+  padding: 0 9%;
+  background-color: #1B2330;
+  color: white;
+}
+
+.team img {
+  max-width: 19.0625rem;
+}
+
+.team h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.8125rem;
+}
+
+.team p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+  margin-top: 1.375rem;
+}
+
+.team a {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.0625rem;
+  font-weight: 400;
+  display: block;
+  border-bottom: 1px solid #63E1D9;
+  text-decoration: none;
+  width: 130px;
+  height: 27px;
+  color: #63E1D9;
+  background-image: url("../images/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .btn {
   font-family: 'Raleway', sans-serif;
   font-size: 0.875rem;
@@ -163,7 +206,8 @@ img {
 
 nav img,
 header img,
-.features img {
+.features img,
+.team img {
   display: inline;
 }
 /*# sourceMappingURL=main.css.map */

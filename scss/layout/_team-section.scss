@@ -1,0 +1,33 @@
+.team {
+    margin-top: toRem(162);
+    padding: 0 9%;
+    background-color: $main-background-color;
+    color: $main-text-color;
+
+    img {
+        max-width: toRem(305);
+    }
+
+    h2 {
+        @include raleway(18, 24, 700);
+        margin-top: toRem(45);
+    }
+
+    p {
+        @include open-sans(14, 21, 400);
+        margin-top: toRem(22);
+    }
+
+    a {
+        @include open-sans(12, 17, 400);
+        display: block;
+        border-bottom: 1px solid $highlight-color-one;
+        text-decoration: none;
+        width: 130px;
+        height: 27px;
+        color: $highlight-color-one;
+        background-image: url('../images/icon-arrow.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}
