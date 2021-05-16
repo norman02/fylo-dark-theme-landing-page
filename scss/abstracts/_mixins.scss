@@ -4,3 +4,10 @@
     line-height: toRem($line-height);
     font-weight: $weight;
 }
+
+@mixin open-sans ($size, $line-height, $weight) {
+    font-family: 'Open sans', sans-serif;
+    font-size: toRem($size);
+    line-height: toRem($line-height);
+    font-weight: $weight;
+}

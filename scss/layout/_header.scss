@@ -1,0 +1,26 @@
+header {
+    padding: toRem(48) toRem(35) toRem(33) toRem(36);
+    background-color: $header-background-color;
+    color: $header-text-color;
+    text-align: center;
+
+    img {
+        max-width: toRem(304);
+    }
+
+    h1{
+        @include raleway(24, 36, 700);
+        margin-top: toRem(33);
+    }
+
+    p {
+        @include open-sans(14, 21, 400);
+        margin-top: toRem(22);
+    }
+
+    button {
+        margin-top: toRem(34);
+    }
+
+    
+}
