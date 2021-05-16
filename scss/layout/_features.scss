@@ -1,0 +1,20 @@
+.features {
+    padding: 0 toRem(27);
+    background-color: $main-background-color;
+    color: $main-text-color;
+    text-align: center;
+
+    .feature {
+        margin-top: toRem(98);
+
+        h2 {
+            @include raleway(18, 24, 700);
+            margin-top: toRem(21);
+        }
+
+        p {
+            @include open-sans(14, 21, 400);
+            margin-top: toRem(14);
+        }
+    }
+}

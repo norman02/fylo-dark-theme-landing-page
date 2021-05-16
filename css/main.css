@@ -110,6 +110,33 @@ header button {
   margin-top: 2.125rem;
 }
 
+.features {
+  padding: 0 1.6875rem;
+  background-color: #1B2330;
+  color: white;
+  text-align: center;
+}
+
+.features .feature {
+  margin-top: 6.125rem;
+}
+
+.features .feature h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-top: 1.3125rem;
+}
+
+.features .feature p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+  margin-top: 0.875rem;
+}
+
 .btn {
   font-family: 'Raleway', sans-serif;
   font-size: 0.875rem;
@@ -126,12 +153,17 @@ header button {
   border-radius: 24px;
 }
 
+body {
+  background-color: #1B2330;
+}
+
 img {
   display: none;
 }
 
 nav img,
-header img {
+header img,
+.features img {
   display: inline;
 }
 /*# sourceMappingURL=main.css.map */

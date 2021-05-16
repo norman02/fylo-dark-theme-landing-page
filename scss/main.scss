@@ -7,15 +7,21 @@
 
 @import 'layout/navigation';
 @import 'layout/header';
+@import 'layout/features';
 
 @import 'components/buttons';
+
+body {
+    background-color: $main-background-color;
+}
 
 img {
     display: none;
 }
 
 nav,
-header {
+header,
+.features {
     img {
         display: inline;
     }
