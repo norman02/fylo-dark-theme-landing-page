@@ -233,6 +233,36 @@ header button {
   grid-area: h4;
 }
 
+.sign-in {
+  background-color: #1B2330;
+  color: white;
+  margin: 12.3125rem 5.33% 5.1875rem 5.33%;
+  padding: 2.3125rem 2.375rem;
+  text-align: center;
+  background: #1B2330 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 8px #00000041;
+  border-radius: 9px;
+}
+
+.sign-in h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+.sign-in p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  font-weight: 400;
+  margin-top: 1.375rem;
+}
+
+.sign-in form {
+  margin-top: 2.125rem;
+}
+
 .btn {
   font-family: 'Raleway', sans-serif;
   font-size: 0.875rem;
