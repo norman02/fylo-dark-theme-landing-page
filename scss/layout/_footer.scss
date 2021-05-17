@@ -1,0 +1,77 @@
+footer {
+    
+    background-color: $main-background-color;
+    color: $main-text-color;
+    margin: 0 toRem(28);
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .logo {
+        height: toRem(30);
+    }
+
+    .location { 
+        @include open-sans(16, 24, 400);
+        margin-top: toRem(35);
+        padding-left: toRem(27);
+        background-image: url('../images/icon-location.svg');
+        background-repeat: no-repeat;
+        background-position: left toRem(5);
+    }
+
+    .contact {
+        @include open-sans(16, 24, 400);
+        margin-top: toRem(14);
+
+        .phone {
+            padding-left: toRem(27);
+            background-image: url('../images/icon-phone.svg');
+            background-repeat: no-repeat;
+            background-position: left toRem(5);
+        }
+
+        .email {
+            margin-top: toRem(21);
+            padding-left: toRem(27);
+            background-image: url('../images/icon-email.svg');
+            background-repeat: no-repeat;
+            background-position: left toRem(5);
+        }
+    }
+
+    .links-about {
+        @include open-sans(16, 22, 400);
+        margin-top: toRem(35);
+
+        li {
+            margin-top: toRem(16);
+        }
+    }
+
+    .links-legal {
+        @include open-sans(16, 22, 400);
+        margin-top: toRem(27.5);
+
+        li {
+            margin-top: toRem(16);
+        }
+    }
+
+    .social {
+        margin-top: toRem(61);
+        padding-bottom: toRem(56.73);
+        text-align: center;
+        
+        li {
+            display: inline;
+
+            img {
+                height: toRem(27);
+                margin-right: toRem(10.82);
+            }
+        }
+    }
+}

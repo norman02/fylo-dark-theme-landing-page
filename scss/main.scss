@@ -11,9 +11,11 @@
 @import 'layout/team-section';
 @import 'layout/reviews-section';
 @import 'layout/sign-in-section';
+@import 'layout/footer';
 
 @import 'components/buttons';
 @import 'components/forms';
+
 
 body {
     background-color: $main-background-color;

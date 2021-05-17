@@ -263,6 +263,95 @@ header button {
   margin-top: 2.125rem;
 }
 
+footer {
+  background-color: #1B2330;
+  color: white;
+  margin: 0 1.75rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .logo {
+  height: 1.875rem;
+}
+
+footer .location {
+  font-family: 'Open sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin-top: 2.1875rem;
+  padding-left: 1.6875rem;
+  background-image: url("../images/icon-location.svg");
+  background-repeat: no-repeat;
+  background-position: left 0.3125rem;
+}
+
+footer .contact {
+  font-family: 'Open sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin-top: 0.875rem;
+}
+
+footer .contact .phone {
+  padding-left: 1.6875rem;
+  background-image: url("../images/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: left 0.3125rem;
+}
+
+footer .contact .email {
+  margin-top: 1.3125rem;
+  padding-left: 1.6875rem;
+  background-image: url("../images/icon-email.svg");
+  background-repeat: no-repeat;
+  background-position: left 0.3125rem;
+}
+
+footer .links-about {
+  font-family: 'Open sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  margin-top: 2.1875rem;
+}
+
+footer .links-about li {
+  margin-top: 1rem;
+}
+
+footer .links-legal {
+  font-family: 'Open sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  margin-top: 1.71875rem;
+}
+
+footer .links-legal li {
+  margin-top: 1rem;
+}
+
+footer .social {
+  margin-top: 3.8125rem;
+  padding-bottom: 3.54562rem;
+  text-align: center;
+}
+
+footer .social li {
+  display: inline;
+}
+
+footer .social li img {
+  height: 1.6875rem;
+  margin-right: 0.67625rem;
+}
+
 .btn {
   font-family: 'Raleway', sans-serif;
   font-size: 0.875rem;
