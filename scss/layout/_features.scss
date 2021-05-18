@@ -14,7 +14,42 @@
 
         p {
             @include open-sans(14, 21, 400);
+            margin: 0 auto;
             margin-top: toRem(14);
+            max-width: toRem(400); 
         }
+    }
+}
+
+@include media-md {
+    .features {
+        img {
+            width: toRem(104);
+        }
+
+        .feature {
+            h2 {
+               @include raleway(20, 24, 700);
+               margin-top: toRem(12); 
+            }
+
+            p {
+              @include open-sans(14, 21, 400);
+              margin-top: toRem(12);
+            }
+        }
+        
+    }
+}
+
+@include media-lg {
+    .features {
+        padding: 0;
+        margin: toRem(158) auto 0 auto;
+        max-width: toRem(880);
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: toRem(147);
+        row-gap: toRem(81);
     }
 }

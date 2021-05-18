@@ -183,7 +183,41 @@ header button {
   font-size: 0.875rem;
   line-height: 1.3125rem;
   font-weight: 400;
+  margin: 0 auto;
   margin-top: 0.875rem;
+  max-width: 25rem;
+}
+
+@media screen and (min-width: 800px) {
+  .features img {
+    width: 6.5rem;
+  }
+  .features .feature h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.75rem;
+  }
+  .features .feature p {
+    font-family: 'Open sans', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+    margin-top: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .features {
+    padding: 0;
+    margin: 9.875rem auto 0 auto;
+    max-width: 55rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 9.1875rem;
+    row-gap: 5.0625rem;
+  }
 }
 
 .team {
