@@ -16,9 +16,4 @@
 @import 'components/buttons';
 @import 'components/forms';
 
-
-body {
-    background-color: $main-background-color;
-}
-
-
+@import 'pages/home';

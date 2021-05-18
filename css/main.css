@@ -364,7 +364,7 @@ footer .social li img {
   width: 15rem;
   height: 3rem;
   background: transparent linear-gradient(111deg, #63E1D9 0%, #34A0CD 100%) 0% 0% no-repeat padding-box;
-  box-shadow: 2px 3px 6px #00000029;
+  box-shadow: 2px 3px 6px #3838380C;
   border-radius: 24px;
 }
 
@@ -375,8 +375,8 @@ footer .social li img {
   font-weight: 400;
   border: none;
   outline: none;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 1px 1px 3px #07043B28;
+  background: white 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 3px #3838380C;
   border-radius: 24px;
   height: 3rem;
   width: 100%;
