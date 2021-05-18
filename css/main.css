@@ -104,14 +104,14 @@ nav li {
 }
 
 header {
-  padding: 3rem 2.1875rem 2.0625rem 2.25rem;
+  margin-top: 3.00687rem;
   background-color: #1B2330;
   color: white;
   text-align: center;
 }
 
 header img {
-  max-width: 19rem;
+  width: 19rem;
 }
 
 header h1 {
@@ -119,6 +119,7 @@ header h1 {
   font-size: 1.5rem;
   line-height: 2.25rem;
   font-weight: 700;
+  margin: 0 auto;
   margin-top: 2.0625rem;
 }
 
@@ -127,11 +128,35 @@ header p {
   font-size: 0.875rem;
   line-height: 1.3125rem;
   font-weight: 400;
+  margin: 0 auto;
   margin-top: 1.375rem;
 }
 
 header button {
+  margin: 0 auto;
   margin-top: 2.125rem;
+}
+
+@media screen and (min-width: 800px) {
+  header img {
+    width: 45rem;
+  }
+  header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    margin-top: 2.25rem;
+    max-width: 45.875rem;
+  }
+  header p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+    margin-top: 2.8125rem;
+    max-width: 37.5rem;
+  }
 }
 
 .features {

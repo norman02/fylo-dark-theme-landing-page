@@ -1,25 +1,52 @@
 header {
-    padding: toRem(48) toRem(35) toRem(33) toRem(36);
+    margin-top: toRem(48.11);
     background-color: $header-background-color;
     color: $header-text-color;
     text-align: center;
 
     img {
-        max-width: toRem(304);
+        width: toRem(304);
     }
 
     h1{
         @include raleway(24, 36, 700);
+        margin: 0 auto;
         margin-top: toRem(33);
     }
 
     p {
         @include open-sans(14, 21, 400);
+        margin: 0 auto;
         margin-top: toRem(22);
     }
 
     button {
+        margin: 0 auto;
         margin-top: toRem(34);
+    }
+    
+}
+
+@include media-md {
+
+    header {
+
+        img {
+            width: toRem(720);
+        }
+
+        h1 {
+            @include raleway (40, 60, 700);
+            margin-top: toRem(36);
+            max-width: toRem(734); 
+        }
+
+        p {
+            @include raleway (20, 30, 400);
+            margin-top: toRem(45);
+            max-width: toRem(600);
+        }
+
     }
     
 }
