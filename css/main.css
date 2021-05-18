@@ -228,7 +228,7 @@ header button {
 }
 
 .team img {
-  max-width: 19.0625rem;
+  width: 19.0625rem;
 }
 
 .team h2 {
@@ -261,6 +261,55 @@ header button {
   background-image: url("../images/icon-arrow.svg");
   background-repeat: no-repeat;
   background-position: right;
+}
+
+@media screen and (min-width: 800px) {
+  .team {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 8.71063rem;
+    display: flex;
+    justify-content: center;
+  }
+  .team img {
+    width: 25rem;
+  }
+  .team .content-container {
+    margin-right: 3.5775rem;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .team .content-container h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  .team .content-container p {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+  .team .content-container a {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    width: 10.375rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .team img {
+    width: 38.4225rem;
+  }
+  .team .content-container {
+    max-width: 35.1875rem;
+  }
 }
 
 .reviews {
