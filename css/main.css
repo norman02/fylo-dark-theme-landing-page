@@ -79,6 +79,30 @@ nav li {
   display: inline;
 }
 
+@media screen and (min-width: 800px) {
+  nav {
+    padding: 4.6075rem 5rem;
+  }
+  nav img {
+    height: 3.19062rem;
+  }
+  nav a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  nav {
+    padding: 0;
+    padding-top: 5rem;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
 header {
   padding: 3rem 2.1875rem 2.0625rem 2.25rem;
   background-color: #1B2330;

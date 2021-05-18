@@ -21,3 +21,26 @@ nav {
         display: inline;
     }
 }
+
+@include media-md {
+    nav {
+        padding: toRem(73.72) toRem(80);
+
+        img {
+            height: toRem(51.05);
+        }
+
+        a {
+            @include raleway(16, 19, 400);
+        }
+    }
+}
+
+@include media-xl {
+    nav {
+        padding: 0;
+        padding-top: toRem(80);
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
