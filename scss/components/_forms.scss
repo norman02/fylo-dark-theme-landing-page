@@ -23,4 +23,24 @@
         width: 100%;
         
     }
+
+    @include media-md {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .email {
+            margin-right: toRem(29);
+            height: toRem(48);
+            width: toRem(480);
+        }
+
+
+        button {
+            @include raleway(14, 16, 700);
+            margin: 0;
+            height: toRem(48);
+            width: toRem(200);
+        }
+    }
 }

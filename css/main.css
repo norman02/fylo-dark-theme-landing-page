@@ -588,4 +588,26 @@ footer .social li img {
   height: 3rem;
   width: 100%;
 }
+
+@media screen and (min-width: 800px) {
+  .form-sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-sign-in .email {
+    margin-right: 1.8125rem;
+    height: 3rem;
+    width: 30rem;
+  }
+  .form-sign-in button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    font-weight: 700;
+    margin: 0;
+    height: 3rem;
+    width: 12.5rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
