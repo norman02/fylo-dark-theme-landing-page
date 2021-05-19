@@ -57,7 +57,12 @@ body {
   background-color: #1B2330;
 }
 
-a:hover {
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body a:hover {
   color: #63E1D9;
 }
 
@@ -455,11 +460,6 @@ footer {
   background-color: #1B2330;
   color: white;
   margin: 0 1.75rem;
-}
-
-footer a {
-  text-decoration: none;
-  color: white;
 }
 
 footer .logo {
