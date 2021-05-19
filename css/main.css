@@ -423,6 +423,30 @@ header button {
   margin-top: 2.125rem;
 }
 
+@media screen and (min-width: 800px) {
+  .sign-in {
+    margin: 12.5625rem auto 0 auto;
+    padding: 2.3125rem 4.8125rem;
+    max-width: 53.9375rem;
+  }
+  .sign-in h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+  }
+  .sign-in p {
+    font-family: 'Open sans', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+  .sign-in form {
+    margin-top: 2.5rem;
+  }
+}
+
 footer {
   background-color: #1B2330;
   color: white;

@@ -21,4 +21,23 @@
     form {
         margin-top: toRem(34);
     }
+
+    @include media-md {
+        margin: toRem(201) auto 0 auto;
+        padding: toRem(37) toRem(77);
+        max-width: toRem(863);
+
+        h2 {
+            @include raleway(32, 48, 700);
+        }
+
+        p {
+            @include open-sans(14, 21, 400);
+            margin-top: toRem(32);
+        }
+        
+        form {
+            margin-top: toRem(40);
+        }
+    }
 }
