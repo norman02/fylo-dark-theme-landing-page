@@ -536,6 +536,58 @@ footer .social li img {
   margin-right: 0.67625rem;
 }
 
+@media screen and (min-width: 800px) {
+  footer .content-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  footer .content-container p {
+    max-width: 23.4375rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  footer {
+    position: relative;
+    z-index: -10;
+    padding: 10.5625rem 7.5rem;
+    margin: 0;
+    margin-top: -6.25rem;
+    width: 100%;
+    background-color: #0B1524;
+  }
+  footer .content-container {
+    margin-top: 3.25rem;
+    display: flex;
+  }
+  footer .content-container .location {
+    margin: 0;
+    max-width: 23.4375rem;
+    margin-right: 5rem;
+  }
+  footer .content-container .contact {
+    margin: 0;
+    margin-right: 9.15625rem;
+  }
+  footer .content-container .links-about {
+    margin: 0;
+    margin-right: 5rem;
+  }
+  footer .content-container .links-about li {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  footer .content-container .links-legal {
+    margin: 0;
+    margin-right: 7.125rem;
+  }
+  footer .content-container .links-legal li {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 .btn {
   font-family: 'Raleway', sans-serif;
   font-size: 0.875rem;

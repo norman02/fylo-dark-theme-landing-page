@@ -74,4 +74,63 @@ footer {
             }
         }
     }
+
+    @include media-md {
+
+        .content-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            p {
+                max-width: toRem(375);
+            }
+        }
+        
+    }
+
+    @include media-lg {
+        position: relative;
+        z-index: -10;
+        padding: toRem(169) toRem(120);
+        margin: 0;
+        margin-top: toRem(-100);
+        width: 100%;
+        background-color: #0B1524;
+
+        .content-container {
+            margin-top: toRem(52);
+            display: flex;
+
+            .location {
+                margin: 0;
+                max-width: toRem(375);
+                margin-right: toRem(80);
+            }
+
+            .contact {
+                margin: 0;
+                margin-right: toRem(146.5);
+            }
+
+            .links-about {
+                margin: 0;
+                margin-right: toRem(80);
+
+                li {
+                    margin: 0;
+                    margin-bottom: toRem(16);
+                }
+            }
+
+            .links-legal {
+                margin: 0;
+                margin-right: toRem(114);
+
+                li {
+                    margin: 0;
+                    margin-bottom: toRem(16);  
+                }
+            }
+        }
+    }
 }
