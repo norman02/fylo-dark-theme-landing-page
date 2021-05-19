@@ -7,6 +7,8 @@
     background-repeat: no-repeat;
     background-position: 13% top;
 
+    
+
     .review {
         margin-top: toRem(24);
         padding: toRem(24) toRem(20);
@@ -39,4 +41,18 @@
             grid-area: h4;    
         }
     }
+    @include media-lg {
+        margin-top: toRem(179) auto;
+        display: flex;
+        justify-content: center;
+
+        .review {
+            margin-right: toRem(40);
+            
+            p {
+                @include open-sans(14, 21, 400)
+            }
+        }
+    }
+    
 }

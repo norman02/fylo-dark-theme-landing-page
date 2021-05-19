@@ -365,6 +365,23 @@ header button {
   grid-area: h4;
 }
 
+@media screen and (min-width: 1000px) {
+  .reviews {
+    margin-top: 11.1875rem auto;
+    display: flex;
+    justify-content: center;
+  }
+  .reviews .review {
+    margin-right: 2.5rem;
+  }
+  .reviews .review p {
+    font-family: 'Open sans', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+  }
+}
+
 .sign-in {
   background-color: #1B2330;
   color: white;
