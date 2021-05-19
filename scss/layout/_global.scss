@@ -1,0 +1,10 @@
+body {
+    background-color: $main-background-color;
+}
+
+@include media-lg {
+    main {
+        margin: auto;
+        max-width: 1500px;
+    }
+}
