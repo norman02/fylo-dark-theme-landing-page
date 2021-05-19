@@ -57,6 +57,10 @@ body {
   background-color: #1B2330;
 }
 
+a:hover {
+  color: #63E1D9;
+}
+
 @media screen and (min-width: 1000px) {
   main {
     margin: auto;
@@ -602,6 +606,10 @@ footer .social li img {
   background: transparent linear-gradient(111deg, #63E1D9 0%, #34A0CD 100%) 0% 0% no-repeat padding-box;
   box-shadow: 2px 3px 6px #3838380C;
   border-radius: 24px;
+}
+
+.btn:hover {
+  background: #8ADAE3 0% 0% no-repeat padding-box;
 }
 
 @media screen and (min-width: 800px) {
