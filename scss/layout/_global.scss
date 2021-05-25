@@ -7,6 +7,10 @@ body {
         &:hover {
             color: $highlight-color-one;
         }
+
+        &:focus {
+            color: aqua;
+        }
     }
 }
 
